@@ -1,7 +1,7 @@
 #include "include/includes.hpp"
 
 int main(int argc, char* argv[]){
-    if(argc < 3){
+    if(argc < 2){
         std::cout << "USAGE: cpak <package>";
         return 1;
     }
