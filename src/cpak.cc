@@ -7,8 +7,7 @@ int main(int argc, char* argv[]){
     }
     else{
         std::string pak = argv[1];
-        std::string ver = argv[2];
-        std::string package = APIKEY + pak + "/" + ver;
+        std::string package = APIKEY + pak;
         std::string command = "git clone " + package + " C:\\cpak\\libs\\pkgs\\";
         std::system(command.c_str());
         return 0;
